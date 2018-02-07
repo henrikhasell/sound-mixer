@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap 101 Template</title>
+        <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+        <script src="lib/html5shiv/dist/html5shiv.min.js"></script>
+        <script src="lib/respond.js/dest/respond.min.js"></script>
+        <![endif]-->
+        <style>
+            #container2 .progress-bar {
+                -webkit-transition: none;
+                -moz-transition: none;
+                -ms-transition: none;
+                -o-transition: none;
+                transition: none;
+            }​
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Sound Mixing Example</h1>
+            <noscript class="alert alert-warning">
+                JavaScript must be enabled for this application to function.
+            </noscript>
+        </div>
+        <div class="container" id="container1">
+            <h2>Loading...</h2>
+            <div class="progress">
+                <div class="progress-bar" id="loading-bar">
+                </div>
+            </div>
+        </div>
+        <div class="container" id="container2" hidden>
+            <div class="progress">
+                <div class="progress-bar" id="track1">
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" id="track2">
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" id="track3">
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" id="track4">
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" id="track5">
+                </div>
+            </div>
+            <input type="range" min="0" max="100" value="0" oninput="update(this)">
+            <script src="lib/jquery/jquery.min.js"></script>
+            <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+            <script src="lib/howler/howler.min.js"></script>
+            <script src="lib/tween.js/Tween.js"></script>
+            <script src="main.js"></script>
+        </div>
+    </body>
+</html>

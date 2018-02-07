@@ -1,0 +1,24 @@
+{
+  "name": "henry-sound-application",
+  "version": "1.0.0",
+  "description": "A sound application for my friend Henry.",
+  "license": "GPLv2",
+  "dependencies": {
+    "@tweenjs/tween.js": "17.2.0",
+    "@types/bootstrap": "3.3.36",
+    "@types/howler": "2.0.5",
+    "@types/jquery": "2.0.47",
+    "@types/tween.js": "16.9.0",
+    "bootstrap": "3.3.7",
+    "gulp": "3.9.1",
+    "gulp-typescript": "3.2.3",
+    "howler": "2.0.8",
+    "html5shiv": "3.7.3",
+    "jquery": "3.2.1",
+    "respond.js": "1.4.2",
+    "typescript": "2.6.2"
+  },
+  "scripts": {
+    "postinstall": "node_modules/.bin/gulp"
+  }
+}

@@ -1,0 +1,6 @@
+/wwwroot/lib
+/wwwroot/main.js
+/node_modules
+/ts/**/*.js
+/yarn-error.log
+/yarn.lock
