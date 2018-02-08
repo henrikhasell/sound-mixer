@@ -82,7 +82,7 @@ function load():void {
         containers[1].hidden = false;
         soundLevel(0);
     }
-    loadingBar.style.width = (loaded / sounds.length) + '%';
+    loadingBar.style.width = (loaded / sounds.length) * 100 + '%';
 }
 
 animate();
